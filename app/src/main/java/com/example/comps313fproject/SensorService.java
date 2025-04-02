@@ -57,7 +57,7 @@ public class SensorService extends Service {
     private FusedLocationProviderClient fusedLocationClient;
     private Handler locationUpdateHandler;
     private Runnable locationUpdateRunnable;
-    private static final long LOCATION_UPDATE_INTERVAL = 10000; // 30 秒更新一次位置
+    private static final long LOCATION_UPDATE_INTERVAL = 600000; // 10 分鐘更新一次位置
     private DatabaseReference dbRef;
 
 
