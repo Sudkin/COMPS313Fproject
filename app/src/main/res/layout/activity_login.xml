@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/appIconImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/child"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHint"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints=""
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/edit_text_background"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorHint"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/registerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Sign up"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

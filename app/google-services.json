@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "847712034511",
+    "firebase_url": "https://childlink-b5304-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "childlink-b5304",
+    "storage_bucket": "childlink-b5304.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847712034511:android:02e03cbaecbe4f9524a1ba",
+        "android_client_info": {
+          "package_name": "com.example.comps313fproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsFn3sC5JHGFZFijNE48FEnJV9l8H0qx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

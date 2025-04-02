@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="holo_blue_light">#FF6200EE</color> <!-- You can choose any hex color code -->
+    <color name="holo_green_light">#8BC34A</color> <!-- Add this for a green button -->
+    <color name="colorPrimary">#6200EE</color> <!-- 紫色示例 -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- 深紫色 -->
+    <color name="colorAccent">#03DAC5</color> <!-- 蓝绿色 -->
+    <color name="colorText">#212121</color> <!-- 文字颜色 -->
+    <color name="colorHint">#757575</color> <!-- 提示文字颜色 -->
+    <color name="colorBackground">#F5F5F5</color> <!-- 背景颜色 -->
+    <color name="polyline_color">#FF0000FF</color> <!-- 蓝色 -->
+
+
+</resources>
